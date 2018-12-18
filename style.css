@@ -1,0 +1,66 @@
+body, html {	
+	background-color:yellow;
+	height:100%;}
+
+h1 {
+	color:blue; 
+	font-size:30px;
+
+}
+
+.topnav {
+background-color:purple;
+overflow:hidden;
+}
+
+.topnav a {
+	float: left;
+	display:block;
+	color:white;
+	text-align centre;
+	padding;30px 28px;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 18px;
+	
+}
+.topnav a:hover{
+	background-color: yellow;
+	color: blue;
+}
+
+.topnav a:active{
+	background-color: yellow;
+	color: black;
+}
+.hero-image {
+	background-image: url("../image/Prawn Salad.jpg");
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.hero-text {
+	text-align:center;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%-50%);
+}
+
+.hero-text h1{
+	font-size: 3em;
+}
+
+.hero-text a button{
+border-color:blue;
+background-color: blue;
+padding:20px
+}
+
+table img{
+padding:10px;}
+.head{background:purple;
+color:white;
+}
